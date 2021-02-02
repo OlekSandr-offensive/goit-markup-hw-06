@@ -971,8 +971,7 @@ footer .container {
 }
 
 .by-line-form {
-  margin: 0;
-  padding: 0;
+  display: flex;
 }
 
 .by-line-input {
@@ -984,6 +983,8 @@ footer .container {
   border-radius: 4px;
   background-color: transparent;
   outline: none;
+  margin-right: 12px;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .by-line-input::placeholder {
@@ -1020,11 +1021,13 @@ footer .container {
 }
 
 .by-line-button::after {
+  display: inline-block;
   content: '';
   width: 24px;
   height: 24px;
-  background-image: url(/image/svg/icon-send.svg);
+  background-image: url(/image/svg/full-send.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-left: 10px;
 }
