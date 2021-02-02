@@ -928,7 +928,7 @@ footer .container {
 .check-input:checked + .checkbox-label::before {
   background-color: var(--akcent-color);
   border-color: var(--akcent-color);
-  background-image: url(/image/svg/icon-check.svg);
+  background-image: url(../image/svg/icon-check.svg);
   background-size: contain;
   background-origin: border-box;
 }
@@ -1025,7 +1025,7 @@ footer .container {
   content: '';
   width: 24px;
   height: 24px;
-  background-image: url(/image/svg/full-send.svg);
+  background-image: url(../image/svg/full-send.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
